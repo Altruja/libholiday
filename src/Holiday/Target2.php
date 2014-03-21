@@ -20,6 +20,19 @@ namespace Holiday;
  * These are the holidays used for calculating SEPA direct debit
  * due dates, and other SEPA related calculations involving
  * business days
+ *
+ * Authoritative Source
+ *
+ *   Bundesbank
+ *   Information Guide for Target2
+ *   Section 2.3 Business Days
+ * 
+ *   http://www.bundesbank.de/Redaktion/EN/Downloads/Tasks/Payment_systems/Target2/information_guide_for_target2_users.pdf
+ *
+ * Further Information
+ *
+ *   Wikipedia Entry
+ *   http://en.wikipedia.org/wiki/TARGET2#TARGET2_holidays
  */
 
 class Target2 extends Calculator
